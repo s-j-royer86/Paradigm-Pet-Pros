@@ -1,0 +1,857 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text3 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text4 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.dog-owners-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.dog-owners-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dog-owners-image {
+  width: 334px;
+  height: 139px;
+  object-fit: cover;
+  margin-right: 14px;
+}
+.dog-owners-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.dog-owners-text {
+  color: var(--dl-color-scheme-green80);
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.dog-owners-text:hover {
+  color: #bdbdbdbd;
+}
+
+.dog-owners-navlink {
+  color: var(--dl-color-scheme-green80);
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.dog-owners-navlink:hover {
+  color: #bdbdbdbd;
+}
+
+.dog-owners-navlink1 {
+  color: var(--dl-color-scheme-green80);
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.dog-owners-navlink1:hover {
+  color: #bdbdbdbd;
+}
+
+.dog-owners-burger-menu {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.dog-owners-hero {
+  height: 108px;
+  position: relative;
+  align-items: flex-start;
+  border-color: #ffffff;
+  border-width: 1px;
+  justify-content: center;
+  background-color: #003b6d;
+}
+.dog-owners-max-width1 {
+  align-items: center;
+  background-color: #003b6d;
+}
+.dog-owners-content {
+  flex: 0 0 auto;
+  width: 45%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.dog-owners-container01 {
+  left: -14px;
+  width: 1179px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  bottom: -358px;
+  height: 104px;
+  display: flex;
+  position: absolute;
+  align-items: stretch;
+  flex-direction: row;
+}
+.dog-owners-image01 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  position: relative;
+  padding-bottom: var(--dl-space-space-eightunits);
+}
+.dog-owners-button {
+  top: -378px;
+  right: -343px;
+  width: 228px;
+  height: 68px;
+  position: absolute;
+  padding-left: 44px;
+  padding-right: var(--dl-space-space-halfunit);
+  background-color: #6699cc;
+}
+.dog-owners-text01 {
+  top: 25px;
+  left: 70px;
+  position: absolute;
+}
+.dog-owners-button1 {
+  top: -378px;
+  right: -343px;
+  width: 228px;
+  height: 68px;
+  position: absolute;
+  padding-left: 44px;
+  padding-right: var(--dl-space-space-halfunit);
+  background-color: #6699cc;
+}
+.dog-owners-text05 {
+  top: 25px;
+  left: 70px;
+  position: absolute;
+}
+.dog-owners-header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.dog-owners-nav {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.dog-owners-btn-group {
+  top: 12px;
+  left: 119px;
+  width: 917px;
+  height: 52px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dog-owners-login {
+  left: 348px;
+  color: rgb(0, 59, 109);
+  width: 244px;
+  bottom: -3px;
+  height: 48px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  border-color: #6699cc;
+  border-width: 3px;
+  text-decoration: underline;
+  background-color: rgba(189, 189, 189, 0.74);
+}
+.dog-owners-login:hover {
+  background-color: #ffffff;
+}
+
+.dog-owners-login1 {
+  left: 4px;
+  color: rgb(102, 153, 204);
+  width: 244px;
+  bottom: -3px;
+  height: 48px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  border-color: #6699cc;
+  border-width: 3px;
+  text-decoration: none;
+}
+.dog-owners-login1:hover {
+  background-color: #bdbdbdbd;
+}
+
+.dog-owners-login2 {
+  color: rgb(102, 153, 204);
+  right: -29px;
+  width: 244px;
+  bottom: -7px;
+  height: 48px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  border-color: #6699cc;
+  border-width: 3px;
+  text-decoration: none;
+}
+.dog-owners-login2:hover {
+  background-color: #bdbdbdbd;
+}
+
+.dog-owners-burger-menu1 {
+  display: none;
+}
+.dog-owners-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.dog-owners-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.dog-owners-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.dog-owners-container02 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.dog-owners-image02 {
+  height: 2rem;
+}
+.dog-owners-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dog-owners-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.dog-owners-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.dog-owners-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.dog-owners-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.dog-owners-section {
+  height: 747px;
+  background-color: #676767;
+}
+.dog-owners-max-width2 {
+  align-items: stretch;
+}
+.dog-owners-hero-image {
+  width: 832px;
+  height: 587px;
+  object-fit: contain;
+  margin-left: -250px;
+  border-radius: 48px;
+}
+.dog-owners-image03 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+.dog-owners-content1 {
+  width: 50%;
+  display: flex;
+  position: relative;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.dog-owners-text09 {
+  top: -3px;
+  left: 114px;
+  color: rgb(0, 59, 109);
+  position: absolute;
+  font-size: 50px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.dog-owners-text10 {
+  top: 129px;
+  left: 0px;
+  color: rgb(0, 59, 109);
+  margin: auto;
+  position: absolute;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.dog-owners-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: stretch;
+  flex-direction: row;
+}
+.dog-owners-section1 {
+  height: 1086px;
+  position: relative;
+  background-color: #bdbdbd;
+}
+.dog-owners-max-width3 {
+  position: relative;
+  align-items: stretch;
+}
+.dog-owners-content2 {
+  width: 50%;
+  display: flex;
+  position: relative;
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.dog-owners-text11 {
+  top: -8px;
+  left: 0px;
+  color: rgb(0, 59, 109);
+  position: absolute;
+  font-size: 60px;
+  font-style: normal;
+  text-align: center;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.dog-owners-text14 {
+  top: 105px;
+  left: -6px;
+  color: rgb(0, 59, 109);
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.dog-owners-container04 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+}
+.dog-owners-image04 {
+  top: 160px;
+  right: 86px;
+  width: 334px;
+  height: 319px;
+  position: absolute;
+  box-shadow: 10px 10px 10px 0px #d4d4d4;
+  object-fit: cover;
+  border-color: var(--dl-color-scheme-green100);
+  border-width: 1px;
+}
+.dog-owners-image05 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+.dog-owners-feature-card {
+  right: 182px;
+  width: 528px;
+  bottom: 248px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dog-owners-container05 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.dog-owners-text15 {
+  top: -134px;
+  color: rgb(0, 59, 109);
+  right: -547px;
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+}
+.dog-owners-section2 {
+  height: 712px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #6699cc;
+}
+.dog-owners-text16 {
+  color: rgb(255, 255, 255);
+  right: 8px;
+  bottom: 29px;
+  position: absolute;
+  font-size: 1.5rem;
+  max-width: 600px;
+  text-align: center;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+}
+.dog-owners-testimonial {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dog-owners-image06 {
+  top: -116px;
+  left: 14px;
+  width: 446px;
+  height: 462px;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.dog-owners-testimonial1 {
+  left: 14px;
+  bottom: -143px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dog-owners-container06 {
+  left: -154px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  bottom: 3px;
+  display: flex;
+  position: absolute;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dog-owners-container07 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dog-owners-text17 {
+  top: -286px;
+  left: -11px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 4rem;
+  max-width: 600px;
+  text-align: center;
+  font-weight: 600;
+}
+.dog-owners-questions {
+  width: 100%;
+  height: 769px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.dog-owners-testimonial2 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dog-owners-image07 {
+  top: 211px;
+  right: -12px;
+  width: 422px;
+  height: 442px;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.dog-owners-testimonial3 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dog-owners-container08 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dog-owners-text18 {
+  top: 254px;
+  left: -488px;
+  color: rgb(0, 59, 109);
+  position: absolute;
+  font-size: 1.6rem;
+  max-width: 600px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+}
+.dog-owners-container09 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dog-owners-text19 {
+  left: 121px;
+  color: rgb(0, 59, 109);
+  bottom: -76px;
+  position: absolute;
+  font-size: 2.5rem;
+  max-width: 600px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+}
+.dog-owners-container10 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.dog-owners-section3 {
+  padding-top: 0px;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #ffffff;
+}
+.dog-owners-footer {
+  width: 1200px;
+  height: 240px;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  border-color: var(--dl-color-scheme-green100);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: #ffffff;
+}
+.dog-owners-image08 {
+  top: 52px;
+  left: 27px;
+  width: 280px;
+  height: 111px;
+  position: absolute;
+  object-fit: cover;
+}
+.dog-owners-image09 {
+  top: 92px;
+  right: 109px;
+  width: 100px;
+  position: absolute;
+  object-fit: cover;
+}
+.dog-owners-text20 {
+  top: 49px;
+  color: #6699cc;
+  right: 34px;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.dog-owners-textinput {
+  top: 91px;
+  left: 385px;
+  color: #003b6d;
+  position: absolute;
+  border-color: #003b6d;
+  border-width: var(--dl-size-size-xsmall);
+  padding-bottom: 2px;
+}
+.dog-owners-button2 {
+  top: 100px;
+  left: 630px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  transition: 0.3s;
+  border-color: #003b6d;
+  background-color: rgb(0, 59, 109);
+}
+.dog-owners-button2:hover {
+  background-color: #bdbdbdbd;
+}
+
+@media(max-width: 991px) {
+  .dog-owners-content {
+    width: 50%;
+    margin-right: var(--dl-space-space-unit);
+  }
+  .dog-owners-image01 {
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .dog-owners-max-width2 {
+    flex-direction: column;
+  }
+  .dog-owners-hero-image {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .dog-owners-image03 {
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .dog-owners-content1 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .dog-owners-max-width3 {
+    flex-direction: column;
+  }
+  .dog-owners-content2 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .dog-owners-image05 {
+    padding-bottom: 0px;
+  }
+  .dog-owners-text16 {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .dog-owners-image06 {
+    margin-bottom: 0px;
+  }
+  .dog-owners-questions {
+    width: 60%;
+  }
+  .dog-owners-image07 {
+    margin-bottom: 0px;
+  }
+  .dog-owners-text18 {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .dog-owners-links {
+    display: none;
+  }
+  .dog-owners-icon {
+    fill: var(--dl-color-scheme-green100);
+  }
+  .dog-owners-max-width1 {
+    flex-direction: column-reverse;
+  }
+  .dog-owners-content {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .dog-owners-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .dog-owners-nav {
+    display: none;
+  }
+  .dog-owners-btn-group {
+    display: none;
+  }
+  .dog-owners-burger-menu1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dog-owners-content1 {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .dog-owners-content2 {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .dog-owners-feature-card {
+    flex-direction: row;
+  }
+  .dog-owners-container05 {
+    flex-direction: column;
+  }
+  .dog-owners-testimonial {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .dog-owners-questions {
+    width: 100%;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .dog-owners-testimonial2 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .dog-owners-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .dog-owners-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .dog-owners-mobile-menu {
+    padding: 16px;
+  }
+  .dog-owners-container05 {
+    flex-direction: column;
+  }
+  .dog-owners-text16 {
+    width: auto;
+  }
+  .dog-owners-testimonial {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .dog-owners-image06 {
+    width: 200px;
+  }
+  .dog-owners-testimonial2 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .dog-owners-image07 {
+    width: 200px;
+  }
+  .dog-owners-text18 {
+    width: auto;
+  }
+  .dog-owners-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+}
